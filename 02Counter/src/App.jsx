@@ -8,7 +8,10 @@ let [counter , setCounter] = useState(15)
   // let counter = 6
   const addValue = ()=>{
     // counter = counter + 1;
-    setCounter(counter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
   }
 
   const removeValue = ()=>{
